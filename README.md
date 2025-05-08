@@ -24,7 +24,7 @@ kubectl version
 Start minikube and apply manifests: 
 
 ```bash
-minikube start
+minikube start --cpus 4 --memory 6144
 kubectl apply -f aks-store-quickstart.yaml
 ```
 
